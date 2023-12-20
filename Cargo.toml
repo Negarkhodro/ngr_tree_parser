@@ -1,0 +1,13 @@
+[package]
+name = "ngr_tree_parser"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = { version = "1.0.75", features = [] }
+clap = { version = "4.4.8", features = ["derive"] }
+clap_derive = "=4.4.7"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = { version = "1.0", features = [] }
